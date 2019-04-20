@@ -12,7 +12,6 @@ class AddBookToBoardForm extends React.Component {
     }
     renderBookBoardOptions = () =>{
        return this.props.boards.map(board => (<option key={board.id} value={board.id}>{board.title} </option>))
-        
     }
 
     handleSubmit = (e) => {

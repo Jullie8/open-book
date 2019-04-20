@@ -1,21 +1,9 @@
-.App {
-    text-align: center;
-}
+html {
+  min-height: 100%; }
 
- .body {
-    backgroundColor: red
- }
-.book-img {
-    height: 100px
-}
-
-.band {
-    width: 90%;
-    max-width: 1240px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr)); 
-    grid-template-rows: auto;
-    grid-gap: 50px;
-}
-
+body {
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  height: 100%; }
