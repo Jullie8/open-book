@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  board: MyString
+  belongs_to: MyString
+  book: one
+
+two:
+  board: MyString
+  belongs_to: MyString
+  book: two
